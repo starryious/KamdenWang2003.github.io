@@ -22,13 +22,11 @@
 </head>
 
 
-
 <body class="page" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
 
 {% include navigation.html %}
-
 
 {% if page.image.feature %}<div class="image-wrap">
   <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
@@ -39,9 +37,11 @@
     {% include author-bio.html %}
   </div>
   <article itemscope itemtype="http://schema.org/CreativeWork">
+  {% comment %}
     <div class="headline-wrap">
       <h1 itemprop="headline">{{ page.title }}</h1>
     </div><!--/ .headline-wrap -->
+  {% endcomment %}
     <div class="article-wrap" itemprop="text">
       {{ content }}
     </div><!-- /.article-wrap -->
