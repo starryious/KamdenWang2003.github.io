@@ -8,17 +8,5 @@ title: Blogs
 
 ### 2023
 
-- 
-
-### 2022
-
-- 
-
-### 2021
-
-- 
-
-### 2020
-
-- 
+- [大一回忆录](https://starryious.github.io/KamdenWang2003.github.io/blogs/freshman)
 
