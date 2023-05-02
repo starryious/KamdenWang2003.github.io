@@ -64,6 +64,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+  math_engine: null #禁用 Kramdown 自带的公式解释器:
 
   # coderay:
   #   coderay_line_numbers:
@@ -81,4 +82,4 @@ kramdown:
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
 
-# Latest update in 2023/03/30 by Xuankai Wang. https://starryious.github.io/KamdenWang2003.github.io/
+# Latest update in 2023/05/02 by Xuankai Wang. https://starryious.github.io/KamdenWang2003.github.io/
