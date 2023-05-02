@@ -4,21 +4,27 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-# Xuankai Wang's Blog	
+# Xuankai Wang's Blog
 
 <br>
 
-## [*Memoirs of my freshman year*](https://starryious.github.io/KamdenWang2003.github.io/blogs/freshman)  
+## *Mathematical Analysis Ⅰ&Ⅱ Lecture Notes*
+
+Instructor: Prof. Liantang Wang
+
+- [Limit of a sequence](https://starryious.github.io/KamdenWang2003.github.io/blogs/analysis/sequence)
+
+## [*Memoirs of my freshman year*](https://starryious.github.io/KamdenWang2003.github.io/blogs/freshman)
 
 Recording my vague memory in my freshman year. 
 
 --31st March 2023
 
+<br>
 
+## [*Tips for Preparing TOEFL*](https://starryious.github.io/KamdenWang2003.github.io/blogs/toefl)
 
-***
-
-## [*Tips for Preparing TOEFL*](https://starryious.github.io/KamdenWang2003.github.io/blogs/tofel)
+Recording my experience when preparing TOEFL
 
 <br>
 

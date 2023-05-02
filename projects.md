@@ -23,7 +23,3 @@ This is a study guide for students at the School of Mathematics, Northwest Unive
 ## [NWU-LaTeX-template](https://github.com/starryious/NWU-latex-template)
 
 Many elegant LaTeX templates designed for NWU students, including Beamer Theme Slides, Recommendation Letters and Undergraduate Thesis Template.
-
-## [CS61A](https://github.com/starryious/UCB-CS61A/tree/main/project)
-
-Three simple game project ([Hog](https://inst.eecs.berkeley.edu/~cs61a/fa21/proj/hog/), [Cats](https://inst.eecs.berkeley.edu/~cs61a/fa21/proj/cats/), [Ants](https://inst.eecs.berkeley.edu/~cs61a/fa21/proj/ants/diagram/ants_diagram.pdf)) in [CS61A](https://inst.eecs.berkeley.edu/~cs61a/fa21/), [University of California, Berkeley](https://www.berkeley.edu/) 
