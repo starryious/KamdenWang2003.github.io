@@ -122,4 +122,10 @@ b站回忆了一波柯南, 看了点剪辑, 想一周补一部经典电影(UPD:�
 
 ## Week9, 10
 
-劳动节的前一周, 入手了Word Power Made Easy, 报了托福, 打数模校赛, 学习了R, RStudio, Rnotebook, Rmarkdown, 找到了一个统计大佬. 自己写了一个ml的 tutorial和 R 的tutorial, 整理了博客, [遇到的问题以及解决](https://zhuanlan.zhihu.com/p/50361221)
+劳动节的前一周, 入手了Word Power Made Easy, 报了托福, 打数模校赛, 
+
+学习了R, RStudio, Rnotebook, Rmarkdown, [遇到的问题以及解决方法](https://blog.csdn.net/qq_41437512/article/details/107094265), 同时找到了一个大佬[Yihui Xie | 谢益辉](https://yihui.org/)
+
+自己写了一个ml的 tutorial和 R 的tutorial
+
+整理了博客, [遇到的问题以及解决方法](https://zhuanlan.zhihu.com/p/50361221)
