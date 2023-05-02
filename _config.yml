@@ -64,7 +64,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-  math_engine: null #禁用 Kramdown 自带的公式解释器:
 
   # coderay:
   #   coderay_line_numbers:

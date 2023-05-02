@@ -1,4 +1,4 @@
-<head>
+
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
@@ -66,8 +66,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
     <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
-    {% unless page.no_latex %}
-        {% include latex.html %}
-    {% endunless %}
-<head>
+    
+
 <!-- Lastly modified by Xuankai Wang in 2023/05/02 -->
