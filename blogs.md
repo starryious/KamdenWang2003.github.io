@@ -12,8 +12,8 @@ title: Blogs
 
 Instructor: Prof. Liantang Wang
 
-- [Mathematical Analysis Ⅰ](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/analysis/数学分析Ⅰ.md)
-- [Mathematical Analysis Ⅱ](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/analysis/数学分析Ⅱ.md)
+- [Mathematical Analysis Ⅰ](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/analysis/数学分析Ⅰ.pdf)
+- [Mathematical Analysis Ⅱ](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/analysis/数学分析Ⅱ.pdf)
 
 ## [*Memoirs of my freshman year*](https://starryious.github.io/KamdenWang2003.github.io/blogs/freshman)
 
