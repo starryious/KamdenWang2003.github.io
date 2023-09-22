@@ -12,9 +12,13 @@ title: Projects
 
 *P.S. Click the hyperlink title to access the source.*
 
-## [stats-self-learning](https://xuankaiwang.github.io/)
+## [R Tutorial](https://github.com/starryious/ML_Tutorial)
 
-This is a self-learning guide on applied statistics, especially for students at the School of Mathematics, Northwest University.
+A short tutorial for *R*. (2023/05/02)
+
+## [Machine Learning Tutorial](https://github.com/starryious/ML_Tutorial)
+
+A short tutorial for machine learning.(2023/05/02)
 
 ## [NWU-MSC-Guide](https://github.com/starryious/nwu-msc-guide)
 
