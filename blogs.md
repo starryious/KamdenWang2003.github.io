@@ -8,12 +8,18 @@ title: Blogs
 
 <br>
 
+[Mathematica worksheet](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/mathematica/worksheet)
+
+<br>
+
 ## *Mathematical Analysis Ⅰ&Ⅱ Lecture Notes*
 
 Instructor: Prof. Liantang Wang
 
 - [Mathematical Analysis Ⅰ](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/analysis/数学分析Ⅰ.pdf)
 - [Mathematical Analysis Ⅱ](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/analysis/数学分析Ⅱ.pdf)
+
+<br>
 
 ## [*Memoirs of my freshman year*](https://starryious.github.io/KamdenWang2003.github.io/blogs/freshman)
 
