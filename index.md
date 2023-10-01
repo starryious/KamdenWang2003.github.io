@@ -7,7 +7,7 @@ layout: page
 
 ***
 
-My name is **Xuankai Wang**. I am now a sophomore at the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) majoring in applied statistics. I am born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003.  
+My name is **Xuankai Wang**. I am now a junior at the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) majoring in applied statistics. I am born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003.  
 
 ## Academic Interests
 

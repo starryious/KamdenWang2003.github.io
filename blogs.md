@@ -8,7 +8,7 @@ title: Blogs
 
 <br>
 
-[Mathematica worksheet](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/mathematica/worksheet)
+[Mathematica worksheet](https://github.com/starryious/KamdenWang2003.github.io/files/mathematica/worksheet.html)
 
 <br>
 
