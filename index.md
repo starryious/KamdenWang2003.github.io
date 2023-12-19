@@ -7,7 +7,7 @@ layout: page
 
 ***
 
-My name is **Xuankai Wang**. I am now a junior at the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) majoring in applied statistics. I am born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003.  
+My name is **Xuankai Wang**. I am now a junior at the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) majoring in applied statistics. I am born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003.  My Email: shakechi [dot] wang [dot] gmail [dot] com
 
 ## Academic Interests
 
@@ -27,9 +27,9 @@ My interests primarily focus on applying solid mathematical knowledge, especiall
 
 ****
 
-**Participate in the research project** \| [University of Otago](https://www.otago.ac.nz/)  
+**Job** \| University
 
-* **Advisor**: Prof. [Joyce Koh](https://www.otago.ac.nz/hedc/people/otago685807.html)  
+* **Advisor**: Prof. 
 
 *  Feb. 2023 - Mar. 2023
 

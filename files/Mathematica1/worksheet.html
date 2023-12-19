@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created with the Wolfram Language : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  worksheet 1 solutions
+ </title>
+ <link href="HTMLFiles/worksheet1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ Mathematica worksheet 1
+</p>
+
+
+
+<p class="Section">
+ Intro
+</p>
+
+
+
+<p class="Text">
+ &#20854;&#20182;&#25968;&#23398;&#36719;&#20214;: <span style='font-style: italic;'>MATLAB</span>, <span style='font-style: italic;'>Mathematica</span>, <span style='font-style: italic;'>Maple.</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>MATLAB, namely, Matrix Laboratory &#30697;&#38453;&#23454;&#39564;&#23460;, &#25968;&#20540;&#35745;&#31639;, &#20027;&#35201;&#20851;&#27880;&#30697;&#38453;&#19978;&#30340;&#36816;&#31639;, &#20223;&#30495;. &#22312;&#24037;&#31243;&#19978;&#36816;&#29992;&#24191;&#27867;, &#20363;&#22914;&#20559;&#24494;&#20998;&#26041;&#31243;&#27714;&#35299;</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>Mathematica, &#31526;&#21495;&#35745;&#31639;, &#35821;&#35328;&#28789;&#27963;, &#38750;&#24120;&#36866;&#21512;&#25968;&#23398;&#31995; (!)</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>Maple, &#31526;&#21495;&#35745;&#31639;, &#22312;&#26089;&#24180;&#26102;&#29256;&#26412;&#20043;&#38388;&#27809;&#26377;&#20860;&#23481;&#24615; (?), &#26377;&#24456;&#22810;&#24037;&#20855;&#21253;</span>
+</p>
+
+
+
+<p class="Section">
+ Resource
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#20027;&#35201;&#21442;&#32771;&#35270;&#39057;</span>: <span style='color: #000000;'>https://www.bilibili.com/video/BV1av411N7Xi/</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#20027;&#35201;&#21442;&#32771;&#20070;: Mathematica Programming: An Advanced Introduction -- Leonid Shifrin, </span><span style='color: #000000;'><span><a href="http://www.mathcraft.org/wiki/index.php?title=Mathematica_%E7%BC%96%E7%A8%8B%EF%BC%9A%E9%AB%98%E7%BA%A7%E5%AF%BC%E8%AE%BA"><span class="HyperlinkInline">&#37096;&#20998;&#20013;&#25991;&#32763;&#35793;</span></a></span></span>
+</p>
+
+
+
+<p class="Item">
+ <span><a href="https://j-star.org/mathematica_course.html"><span class="HyperlinkInline">j-star.org</span></a></span> <span style='color: #000000;'>&#31508;&#32773;&#32763;&#35793;&#20102; worksheet1, &#21487;&#20197;&#20316;&#20026;&#21442;&#32771;</span>
+</p>
+
+
+
+<p class="Item">
+ <span><a href="https://mathematica.stackexchange.com/"><span class="HyperlinkInline">Mathematica Stack Exchange</span></a></span>
+</p>
+
+
+
+<p class="Item">
+ <span><a href="https://jump2.bdimg.com/f?kw=mathematica&fr=home"><span class="HyperlinkInline">Mathematica &#30334;&#24230;&#36148;&#21543;</span></a></span>
+</p>
+
+
+
+<p class="Item">
+ <span><a href="http://www.mathcraft.org/wiki/index.php?title=Mathematica_%20%%20E5%20%%20AD%20%%20A6%20%%20E4%20%%20B9%20%%20A0%20%%20E8%20%%20B5%20%84%20%%20E6%20%%20BA%20%90"><span class="HyperlinkInline">MathCraft</span></a></span>
+</p>
+
+
+
+<p class="Item">
+ <span><a href="https://projecteuler.net/"><span class="HyperlinkInline">Project Euler</span></a></span>: <span style='color: #000000;'>&#25968;&#23398;&#32534;&#31243;&#32451;&#20064;&#39064;&#32593;&#31449;</span>, <span><a href="http://www.mathcraft.org/wiki/index.php?title=Project_Euler-Mathematica"><span class="HyperlinkInline">&#37096;&#20998;&#35299;&#31572;</span></a></span>
+</p>
+
+
+
+<p class="Section">
+ &#36825;&#26159;&#19968;&#20010;&#20160;&#20040;&#26679;&#30340;&#25945;&#31243;
+</p>
+
+
+
+<p class="Text">
+ &#26412;&#25945;&#31243;&#20027;&#35201;&#20851;&#27880; <span style='font-style: italic;'>Mathematica</span> &#26680;&#24515;&#35821;&#35328;, &#35201;&#27714;&#26377;&#22522;&#26412;&#24494;&#31215;&#20998;&#21644;&#32447;&#24615;&#20195;&#25968;&#30340;&#30693;&#35782;&#20197;&#21450;&#19968;&#23450;&#30340;&#22522;&#26412;&#32534;&#31243;&#30693;&#35782;. &#20351;&#29992; <span style='font-style: italic;'>Mathematica</span> &#36825;&#19968;&#24037;&#20855;&#30340;&#20027;&#35201;&#30446;&#30340;&#26159;&#25552;&#39640;&#24037;&#20316;&#25928;&#29575;, &#25928;&#29575;&#30340;&#23450;&#20041;&#23545;&#19981;&#21516;&#19987;&#19994;&#30340;&#20154;&#26159;&#19981;&#21516;&#30340;, &#23545;&#25968;&#23398;&#24037;&#20316;&#32773;&#26469;&#35828;, &#26368;&#26377;&#25928;&#29575;&#30340;&#31243;&#24207;&#26159; &ldquo;&#24320;&#21457;&#26102;&#38388;&rdquo; + &ldquo;&#36816;&#34892;&#26102;&#38388;&rdquo; &#26368;&#23567;&#30340;&#31243;&#24207;, &#25968;&#23398;&#24037;&#20316;&#32773;&#19981;&#24517;&#36861;&#27714;&#23436;&#32654;, &#25226;&#36816;&#34892;&#26102;&#38388;&#32553;&#21040;&#24456;&#30701;, &#22312;&#36305;&#31243;&#24207;&#30340;&#26102;&#20505;&#22823;&#21487;&#21435;&#29038;&#19968;&#26479;&#21654;&#21857;. &#37027;&#20040;&#20160;&#20040;&#26159; &ldquo;&#25968;&#23398;&#24037;&#20316;&#32773; (Mathematician)&rdquo; ? 
+</p>
+
+
+
+<p class="Text">
+ &ldquo;&#25968;&#23398;&#23478;&rdquo;&#22312;&#20013;&#25991;&#35821;&#20041;&#20013;&#36890;&#24120;&#25351;&#30340;&#26159;&#26377;&#21331;&#36234;&#25968;&#23398;&#25104;&#23601;&#30340;&#20154;, &#19968;&#33324;&#30340;&#25968;&#23398;&#24037;&#20316;&#32773;&#22312;&#33521;&#25991;&#20013;&#20063;&#31216;&#20026; Mathematician. &#22312;&#25968;&#23398;&#23478;&#22280;&#23376;&#20869;&#37096;, &#20154;&#20204;&#20063;&#35748;&#20026; Mathematician &#20998;&#25104;&#20004;&#20010;&#26377;&#20195;&#34920;&#24615;&#30340;&#32676;&#20307;:
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#29992;&#38451;&#20809;&#21644;&#38632;&#38706;&#21507;&#26680;&#26691;&#30340;&#20154; v.s &#29992;&#38180;&#23376;&#21644;&#20991;&#23376;&#21507;&#26680;&#26691;&#30340;&#20154; -- A. Grothendieck, R&eacute;coltes et Semailles (&#25910;&#33719;&#19982;&#25773;&#31181;)</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#29702;&#35770;&#24314;&#35774;&#32773; vs. &#38382;&#39064;&#27714;&#35299;&#32773; -- W.T. Gowers, The Two Cultures of Mathematician (2000)</span>
+</p>
+
+
+
+<p class="Text">
+ &#25105;&#20204;&#25226;&#21069;&#19968;&#31867;&#31216;&#20026; &ldquo;&#25968;&#23398;&#23478;&rdquo;, &#21518;&#19968;&#31867;&#31216;&#20026; &ldquo;&#25968;&#23398;&#24037;&#20316;&#32773;&rdquo;. 
+</p>
+
+
+
+<p class="Text">
+ &#25968;&#23398;&#23478;&#30340;&#24037;&#20316;&#26041;&#24335;: &#24605;&#32771;, &#20877;&#24605;&#32771;, &#30011;&#20132;&#25442;&#22270;&#34920; (&#22914;&#26524;&#38656;&#35201;), &#38382;&#39064;&#35299;&#20915;; &#25968;&#23398;&#24037;&#20316;&#32773;&#30340;&#24037;&#20316;&#26041;&#24335;&#21017;&#26159;&#22312;&#36873;&#39064;&#21518;&#35299;&#20915;&#38382;&#39064;. &#25968;&#23398;&#23478;&#19968;&#33324;&#19981;&#38656;&#35201;&#22823;&#37327;&#35745;&#31639;, &#32780;&#25968;&#23398;&#24037;&#20316;&#32773;&#38656;&#35201;. 
+</p>
+
+
+
+<p class="Text">
+ &#26426;&#22120;&#19981;&#33021;&#35299;&#20915;&#19968;&#20999;&#25968;&#23398;&#38382;&#39064;, &#20851;&#38190;&#27493;&#39588;&#30001;&#20154;&#26469;&#35299;&#20915;, &#23558;&#26426;&#22120;&#30340;&#24037;&#20316;&#20132;&#32473;&#26426;&#22120;, &#20154;&#30340;&#24037;&#20316;&#20132;&#32473;&#20154;&#26159;&#19968;&#31181;&#39640;&#25928;&#21512;&#29702;&#30340;&#24037;&#20316;&#26041;&#27861;.
+</p>
+
+
+
+<p class="Text">
+ &#20851;&#38190;&#38382;&#39064;&#22312;&#20110;&#24590;&#20040;&#26679;&#23558;&#35745;&#31639;&#26041;&#27861;&#25945;&#32473;&#35745;&#31639;&#26426;, &#21442;&#32771; Curry-Howard correspondence.
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#20805;&#20998;&#29702;&#35299;&#25105;&#20204;&#25152;&#20570;&#30340;&#35745;&#31639;, &#25226;&#23427;&#24402;&#32467;&#20026; &ldquo;&#37325;&#20889;&#35268;&#21017;&rdquo; (&#23588;&#20854;&#22312; </span><span style='font-style: italic;color: #000000;'>Mathematica</span><span style='color: #000000;'> &#20013;)</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#23558; &ldquo;&#37325;&#20889;&#35268;&#21017;&rdquo; &#25945;&#32473;&#35745;&#31639;&#26426;, &#20351;&#23427;&#24110;&#21161;&#25105;&#20204;&#23436;&#25104;&#35745;&#31639;</span>
+</p>
+
+
+
+<p class="Section">
+ &#22522;&#26412;&#25805;&#20316;
+</p>
+
+
+
+<p class="Subsection">
+ &#20316;&#20026;&#25968;&#23398;&#35745;&#31639;&#22120;&#30340; <span style='font-style: italic;'>Mathematica</span>
+</p>
+
+
+
+<p class="Text">
+ &#31616;&#21333;&#30340;&#36755;&#20837;&#21040;&#36755;&#20986;: <span style='color: #000000;background-color: #D9D9D9;'>Shift + Enter</span><span style='color: #000000;background-color: #FFFFFF;'> &#26469;&#36755;&#20986;:</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_1.png" alt="worksheet1_1.png" width="28" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_2.png" alt="worksheet1_2.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ NOTE: &#22914;&#26524;&#20320;&#36827;&#34892;&#20102;&#19968;&#20010;&#27604;&#36739;&#22855;&#24618;&#30340;&#36816;&#31639;, &#21487;&#20197;&#20351;&#29992;&#24555;&#25463;&#38190; <span style='color: #000000;background-color: #D9D9D9;'>Alt + .</span><span style='color: #000000;background-color: #FFFFFF;'> &#26469;&#32467;&#26463;&#35745;&#31639;.</span>
+</p>
+
+
+
+<p class="Text">
+ &#29305;&#27530;&#25968;&#23398;&#31526;&#21495;&#20363;&#22914;: E, Pi, I, EulerGamma:
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_3.png" alt="worksheet1_3.png" width="179" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_4.png" alt="worksheet1_4.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_5.png" alt="worksheet1_5.png" width="147" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_6.png" alt="worksheet1_6.png" width="57" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span style='font-style: italic;'>Mathematica</span> &#26377;&#39640;&#31934;&#24230;&#30340;&#25968;&#20540;&#35745;&#31639;, &#27880;&#24847; MATLAB &#26159;&#25968;&#20540;&#35745;&#31639;&#36719;&#20214;, &#20294;&#19981;&#20851;&#27880;&#39640;&#31934;&#24230;, &#22240;&#20026;&#22312;&#24037;&#31243;&#19978;&#19981;&#20250;&#20851;&#27880;&#22826;&#39640;&#30340;&#20301;&#25968;:
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_7.png" alt="worksheet1_7.png" width="127" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_8.png" alt="worksheet1_8.png" width="844" height="35" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ &#21021;&#31561;&#20195;&#25968;&#36816;&#31639;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_9.png" alt="worksheet1_9.png" width="118" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_10.png" alt="worksheet1_10.png" width="186" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_11.png" alt="worksheet1_11.png" width="235" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_12.png" alt="worksheet1_12.png" width="49" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_13.png" alt="worksheet1_13.png" width="177" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_14.png" alt="worksheet1_14.png" width="335" height="32" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ &#24494;&#31215;&#20998;&#36816;&#31639;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_15.png" alt="worksheet1_15.png" width="143" height="48" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_16.png" alt="worksheet1_16.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_17.png" alt="worksheet1_17.png" width="54" height="33" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_18.png" alt="worksheet1_18.png" width="97" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_19.png" alt="worksheet1_19.png" width="91" height="45" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_20.png" alt="worksheet1_20.png" width="184" height="18" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_21.png" alt="worksheet1_21.png" width="216" height="54" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_22.png" alt="worksheet1_22.png" width="100" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_23.png" alt="worksheet1_23.png" width="412" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_24.png" alt="worksheet1_24.png" width="334" height="18" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ NOTE: <span style='color: #000000;background-color: #D9D9D9;'>Ctrl+ /</span><span style='color: #000000;background-color: #FFFFFF;'> &#21487;&#20197;&#26174;&#31034;&#20986;&#20998;&#25968;&#32447;, &#21516;&#29702; </span><span style='color: #000000;background-color: #D9D9D9;'>Ctrl+ ^</span><span style='color: #000000;background-color: #FFFFFF;'> &#21487;&#20197;&#26174;&#31034;&#24130;, &#20063;&#21487;&#20197;&#22312;&#24037;&#20855;&#26639;-&gt;&#38754;&#26495;-&gt;&#25968;&#23398;&#21161;&#25163;&#20013;&#26597;&#35810;<br />NOTE: &#20854;&#20013; -&gt; &#34920;&#31034;&#19968;&#20010;&#26367;&#25442;&#35268;&#21017;, &#25105;&#20204;&#20250;&#22312;&#20043;&#21518;&#30340;&#26680;&#24515;&#35821;&#35328;&#20013;&#37325;&#28857;&#25552;&#21040;<br />NOTE: F1 &#26469;&#35843;&#20986;&#35828;&#26126;&#25991;&#26723;</span>
+</p>
+
+
+
+<p class="Subsection">
+ &#20854;&#20182;&#26377;&#36259;&#30340;&#21151;&#33021;
+</p>
+
+
+
+<p class="Text">
+ &#30011;&#22270;:
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_25.png" alt="worksheet1_25.png" width="448" height="48" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_26.gif" alt="worksheet1_26.gif" width="360" height="213" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ NOTE: &#21487;&#20197;&#36890;&#36807; PlotPoints &#23646;&#24615;&#26469;&#22686;&#21152;&#22270;&#20687;&#24179;&#28369;&#31243;&#24230;
+</p>
+
+
+
+<p class="Text">
+ NOTE:<span style='font-style: italic;'> Mathematica</span> &#30001;&#20004;&#37096;&#20998;&#32452;&#25104; -- &#21069;&#31471;&#19982;&#20869;&#26680; (kernel), &#20320;&#21487;&#20197;&#22312;&#24037;&#20855;&#26639;&#20013;&#36873;&#25321;&#35745;&#31639;-&gt;&#36864;&#20986;&#20869;&#26680;, &#26469;&#25226;&#20043;&#21069;&#30340;&#35745;&#31639;&#32467;&#26524;&#28165;&#31354;, &#28165;&#29702;&#19968;&#20123;&#21464;&#37327;, &#20877;&#32473;&#21464;&#37327;&#36171;&#20540;&#20043;&#21518;, &#21464;&#37327;&#21517;&#20250;&#30001;&#34013;&#33394;&#21464;&#20026;&#40657;&#33394;.<br />NOTE: Mathematica &#30340;&#27880;&#37322;&#20026; <span style='background-color: #D9D9D9;'>(* *)</span>
+</p>
+
+
+
+<p class="Text">
+ &#23548;&#20837;&#32593;&#31449;&#22270;&#29255;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_27.png" alt="worksheet1_27.png" width="710" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_28.gif" alt="worksheet1_28.gif" width="1043" height="664" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ &#31867;&#20284; PhotoShop &#22686;&#21152;&#22270;&#20687;&#25928;&#26524;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_29.png" alt="worksheet1_29.png" width="275" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_30.gif" alt="worksheet1_30.gif" width="1043" height="664" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ &#20154;&#33080;&#35782;&#21035;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_31.gif" alt="worksheet1_31.gif" width="592" height="66" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_32.gif" alt="worksheet1_32.gif" width="442" height="383" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span style='font-style: italic;'>Mathematica</span> &#20869;&#32622;&#24456;&#22810;&#39640;&#32423;&#21151;&#33021;, &#23601;&#20687;&#35745;&#31639;&#22120;&#19968;&#33324;, &#21482;&#35201;&#20320;&#23558;&#21442;&#25968;&#27491;&#30830;&#36755;&#20837;, &#23601;&#33021;&#23454;&#29616;&#22312;&#20854;&#20182;&#35821;&#35328;&#20013;&#24456;&#38590;&#23454;&#29616;&#30340;&#21151;&#33021;, &#22240;&#27492;&#24456;&#36866;&#21512;&#24555;&#36895;&#21151;&#33021;&#30340;&#24320;&#21457;, &#23613;&#31649;&#25928;&#29575;&#21487;&#33021;&#19981;&#26159;&#24456;&#39640;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_33.png" alt="worksheet1_33.png" width="369" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_34.png" alt="worksheet1_34.png" width="47" height="21" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span style='font-style: italic;'>Mathematica </span>&#20869;&#37096;&#20989;&#25968;&#21487;&#20197;&#20174;&#20114;&#32852;&#32593;&#23454;&#26102;&#25235;&#21462;&#25968;&#25454;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_35.png" alt="worksheet1_35.png" width="498" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_36.gif" alt="worksheet1_36.gif" width="360" height="227" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ &#20540;, &#21464;&#37327;, &#31867;&#22411;
+</p>
+
+
+
+<p class="Text">
+ &#19978;&#36848;&#31616;&#21333;&#30340;&#29992;&#27861;&#37117;&#19981;&#26159; <span style='font-style: italic;'>Mathematica</span> &#26368;&#26680;&#24515;&#30340;&#29992;&#27861;, &#19979;&#38754;&#24320;&#22987;&#20171;&#32461;&#26680;&#24515;&#35821;&#35328;.
+</p>
+
+
+
+<p class="Text">
+ &#25105;&#20204;&#20808;&#20174;&#21644;&#20854;&#20182;&#35821;&#35328;&#30456;&#20284;&#30340;&#37096;&#20998;&#35762;&#36215;, &#20197;&#19979;&#19977;&#31181;&#23545;&#35937;&#31216;&#20026;&#21407;&#23376; (atom):
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#31526;&#21495; (Symbol): &#30001;&#23383;&#27597;&#21644;&#25968;&#23383; (&#25968;&#23383;&#19981;&#33021;&#22312;&#36215;&#22987;&#20301;&#32622;) &#26500;&#25104;&#30340;&#26377;&#38480;&#24207;&#21015;</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#25968;&#23383; (Number): &#25972;&#25968;, &#26377;&#29702;&#25968;, &#23454;&#25968;, &#22797;&#25968;, (&#22235;&#20803;&#25968;)</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#23383;&#31526;&#20018; (String): &#30001;&#21452;&#24341;&#21495; &ldquo;&rdquo; &#25324;&#36215;&#26469;&#30340;&#20219;&#24847;&#23383;&#31526;&#26500;&#25104;&#30340;&#26377;&#38480;&#24207;&#21015;</span>
+</p>
+
+
+
+<p class="Text">
+ &#31526;&#21495;&#21487;&#20197;&#35748;&#20026;&#26159;&#20854;&#20182;&#35821;&#35328;&#20013;&#30340;&#21464;&#37327;, &#25968;&#23383;&#21644;&#23383;&#31526;&#20018;&#21017;&#26159;&#21464;&#37327;&#30340;&#20540;
+</p>
+
+
+
+<p class="Text">
+ Mathematica &#21464;&#37327;&#19981;&#26159;&#31867;&#20284; C &#35821;&#35328;&#30340;&#24378;&#31867;&#22411;&#21464;&#37327;, &#26159;&#31867;&#20284; Python &#21644; R &#30340;&#21487;&#21464;&#31867;&#22411;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_37.png" alt="worksheet1_37.png" width="55" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_38.png" alt="worksheet1_38.png" width="7" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_39.png" alt="worksheet1_39.png" width="80" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_40.png" alt="worksheet1_40.png" width="21" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ &#21629;&#21517;&#21464;&#37327;&#26102;&#38656;&#35201;&#36991;&#24320;&#31995;&#32479;&#20869;&#24314;&#31526;&#21495;: 
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#30001;&#31532;&#19968;&#20010;&#23383;&#27597;&#22823;&#20889;&#30340;&#21333;&#35789;&#32452;&#25104;&#65288;Camel&#21629;&#21517;&#27861;&#65289;&#65306;True&#12289;False&#12289;FactorInteger&#12289;SetAttributes</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#29992;&#26469;&#20570;&#21028;&#26029;&#30340;&#20989;&#25968;&#26411;&#23614;&#36890;&#24120;&#26377;&ldquo;Q&rdquo;&#65306;EvenQ&#12289;PrimeQ&#12289;MatchQ</span>
+</p>
+
+
+
+<p class="Item">
+ <span style='color: #000000;'>&#29992;&#20154;&#21517;&#21629;&#21517;&#30340;&#31526;&#21495;=&#20154;&#21517;+&#31526;&#21495;&#21517;&#65306;EulerGamma&#12289;BesselJ&#12289;DiracDelta</span>
+</p>
+
+
+
+<p class="Text">
+ &#19968;&#31181;&#27604;&#36739;&#22909;&#30340;&#20570;&#27861;&#26159;&#22312;&#21629;&#21517;&#33258;&#23450;&#20041;&#31526;&#21495;&#26102;&#23558;&#39318;&#23383;&#27597;&#21462;&#20026;&#23567;&#20889;&#23383;&#27597; (camel&#21629;&#21517;&#27861;), &#20063;&#21487;&#20197;&#30452;&#25509;&#29992;&#20013;&#25991;&#21629;&#21517;, &#20294;&#19981;&#25512;&#33616;. &#24182;&#19988;&#27880;&#24847;&#20840;&#35282;&#21644;&#21322;&#35282;.
+</p>
+
+
+
+<p class="Text">
+ &#31867;&#22411;&#26816;&#26597;&#38382;&#39064;&#65306;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_41.png" alt="worksheet1_41.png" width="326" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_42.gif" alt="worksheet1_42.gif" width="360" height="213" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_43.png" alt="worksheet1_43.png" width="145" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_44.png" alt="worksheet1_44.png" width="131" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ &#19968;&#20010;&#32534;&#31243;&#35821;&#35328;&#30340;&#31867;&#22411;&#26816;&#26597;&#36234;&#20005;&#26684;&#65292;&#31243;&#24207;&#21592;&#21463;&#21040;&#30340;&#26463;&#32538;&#23601;&#36234;&#22823;&#12290;<span style='font-style: italic;'>Mathematica</span> &#31243;&#24207;&#36890;&#24120;&#26469;&#35828;&#37117;&#27604;&#36739;&#30701;&#23567;&#65292;&#38752;&#31243;&#24207;&#21592;&#33258;&#35273;&#26816;&#26597;&#31867;&#22411;&#22522;&#26412;&#19978;&#23601;&#36275;&#22815;&#20102;&#65292;&#25152;&#20197;&#19981;&#38656;&#35201;&#22826;&#20005;&#26684;&#30340;&#31867;&#22411;&#26816;&#26597;&#26426;&#21046;&#12290;&#19968;&#20010;&#36739;&#24369;&#30340;&#31867;&#22411;&#31995;&#32479;&#21487;&#20197;&#35753;&#31243;&#24207;&#21592;&#20889;&#20986;&#26356;&#28789;&#27963;&#30340;&#31243;&#24207;&#12290;&#20363;&#22914;&#22312;&#19978;&#38754;&#30340;&#20363;&#23376;&#20013;&#65292;&#25105;&#20204;&#21487;&#20197;&#22312;&#38656;&#35201;&#30340;&#26102;&#20505;&#23558; Sin[ ] &#20013;&#30340;&#33258;&#21464;&#37327;&#65288;&#27492;&#26102;&#26159;&#20010;&#23383;&#31526;&#20018;&#65289;&#20877;&#26367;&#25442;&#20026;&#21512;&#27861;&#30340;&#25968;&#20540;&#65292;&#30001;&#27492;&#24471;&#21040;&#25968;&#23398;&#19978;&#26377;&#24847;&#20041;&#30340;&#32467;&#26524;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_45.png" alt="worksheet1_45.png" width="342" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_46.png" alt="worksheet1_46.png" width="25" height="35" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ &#25511;&#21046;&#27969;
+</p>
+
+
+
+<p class="Text">
+ &#22312; C &#25110;&#32773; Pascal &#36825;&#31181;&#38754;&#21521;&#36807;&#31243;&#30340;&#32467;&#26500;&#21270;&#31243;&#24207;&#35821;&#35328;&#20013;&#65292;&#26465;&#20214;&#12289;&#24490;&#29615;&#21644;&#23376;&#31243;&#24207;&#26159;&#26368;&#22522;&#26412;&#30340;&#19977;&#31181;&#32467;&#26500;&#12290;&#26377;&#20102;&#36825;&#19977;&#31181;&#32467;&#26500;&#23601;&#21487;&#20197;&#23454;&#29616;&#19968;&#20999;&#31639;&#27861;&#12290;&#20294;&#26159;&#65292;&#22312; Mathematica &#31243;&#24207;&#20013;&#65292;&#26465;&#20214;&#21644;&#24490;&#29615;&#32467;&#26500;&#20854;&#23454;&#29992;&#24471;&#24182;&#19981;&#22810;&#12290;&#36825;&#26159;&#22240;&#20026;&#26465;&#20214;&#32467;&#26500;&#30340;&#21151;&#33021;&#22522;&#26412;&#19978;&#21487;&#20197;&#36890;&#36807;&#26680;&#24515;&#35821;&#35328;&#20013;&#30340;&#27169;&#24335;&#21305;&#37197;&#26469;&#23436;&#25104;&#65307;&#32780;&#24490;&#29615;&#32467;&#26500;&#30340;&#21151;&#33021;&#21017;&#21487;&#20197;&#36890;&#36807;&#34920;&#22788;&#29702;&#21644;&#27867;&#20989;&#32534;&#31243;&#23436;&#25104;&#12290;&#31561;&#35835;&#32773;&#29087;&#24713;&#36825;&#20123;&#26680;&#24515;&#35821;&#35328;&#30340;&#27010;&#24565;&#20043;&#21518;&#65292;&#20250;&#21457;&#29616;&#23427;&#20204;&#27604;&#26465;&#20214;&#21644;&#24490;&#29615;&#32467;&#26500;&#26356;&#28789;&#27963;&#12289;&#26356;&#24378;&#22823;&#12289;&#24182;&#19988;&#26356;&#24555;&#12290;&#22312;&#26412;&#33410;&#20013;&#65292;&#20026;&#20102;&#35753;&#29087;&#24713; C &#35821;&#35328;&#30340;&#35835;&#32773;&#27604;&#36739;&#24555;&#22320;&#19978;&#25163;&#65292;&#25105;&#20204;&#31616;&#21333;&#22320;&#20171;&#32461;&#19968;&#19979; Mathematica &#20013;&#30340;&#36825;&#20123;&#32467;&#26500;&#12290;
+</p>
+
+
+
+<p class="Item">
+ <span class="TextInline">&#31616;&#21333;&#26465;&#20214;&#21028;&#26029;</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_47.png" alt="worksheet1_47.png" width="164" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_48.png" alt="worksheet1_48.png" width="26" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_49.png" alt="worksheet1_49.png" width="276" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_50.png" alt="worksheet1_50.png" width="26" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_51.png" alt="worksheet1_51.png" width="429" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_52.png" alt="worksheet1_52.png" width="73" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_53.png" alt="worksheet1_53.png" width="442" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_54.png" alt="worksheet1_54.png" width="26" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Item">
+ <span class="TextInline">&#22810;&#37325;&#26465;&#20214;&#21028;&#26029;</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_55.png" alt="worksheet1_55.png" width="452" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_56.png" alt="worksheet1_56.png" width="54" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_57.png" alt="worksheet1_57.png" width="455" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_58.gif" alt="worksheet1_58.gif" width="360" height="223" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_59.png" alt="worksheet1_59.png" width="464" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_60.png" alt="worksheet1_60.png" width="166" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Item">
+ <span class="TextInline">&#31616;&#21333;&#24490;&#29615;</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_61.png" alt="worksheet1_61.png" width="284" height="33" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_62.png" alt="worksheet1_62.png" width="24" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_63.png" alt="worksheet1_63.png" width="24" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_64.png" alt="worksheet1_64.png" width="24" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_65.png" alt="worksheet1_65.png" width="48" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_66.png" alt="worksheet1_66.png" width="272" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_67.png" alt="worksheet1_67.png" width="7" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_68.png" alt="worksheet1_68.png" width="7" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_69.png" alt="worksheet1_69.png" width="7" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_70.png" alt="worksheet1_70.png" width="7" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_71.png" alt="worksheet1_71.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_72.png" alt="worksheet1_72.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_73.png" alt="worksheet1_73.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_74.png" alt="worksheet1_74.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_75.png" alt="worksheet1_75.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_76.png" alt="worksheet1_76.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_77.png" alt="worksheet1_77.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_78.png" alt="worksheet1_78.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_79.png" alt="worksheet1_79.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_80.png" alt="worksheet1_80.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_81.png" alt="worksheet1_81.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_82.png" alt="worksheet1_82.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_83.png" alt="worksheet1_83.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_84.png" alt="worksheet1_84.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_85.png" alt="worksheet1_85.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_86.png" alt="worksheet1_86.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_87.png" alt="worksheet1_87.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_88.png" alt="worksheet1_88.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_89.png" alt="worksheet1_89.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_90.png" alt="worksheet1_90.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_91.png" alt="worksheet1_91.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_92.png" alt="worksheet1_92.png" width="398" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_93.png" alt="worksheet1_93.png" width="132" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_94.png" alt="worksheet1_94.png" width="132" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_95.png" alt="worksheet1_95.png" width="132" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_96.png" alt="worksheet1_96.png" width="132" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_97.png" alt="worksheet1_97.png" width="139" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Item">
+ <span class="TextInline">&#22797;&#26434;&#24490;&#29615;</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_98.png" alt="worksheet1_98.png" width="292" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_99.png" alt="worksheet1_99.png" width="7" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_100.png" alt="worksheet1_100.png" width="7" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_101.png" alt="worksheet1_101.png" width="7" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_102.png" alt="worksheet1_102.png" width="13" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_103.png" alt="worksheet1_103.png" width="20" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_104.png" alt="worksheet1_104.png" width="20" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_105.png" alt="worksheet1_105.png" width="26" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_106.png" alt="worksheet1_106.png" width="35" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_107.png" alt="worksheet1_107.png" width="42" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/worksheet1_108.png" alt="worksheet1_108.png" width="50" height="14" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_109.png" alt="worksheet1_109.png" width="276" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_110.png" alt="worksheet1_110.png" width="54" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_111.png" alt="worksheet1_111.png" width="416" height="31" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_112.png" alt="worksheet1_112.png" width="54" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Item">
+ <span class="TextInline">&#19981;&#25512;&#33616;&#20351;&#29992;&#30340;&#65306;Break&#12289;Continue&#12289;Return&#12289;Goto&#12290;</span>
+</p>
+
+
+
+<p class="Section">
+ &#20989;&#25968;
+</p>
+
+
+
+<p class="Item">
+ <span class="TextInline">&#20989;&#25968;&#23450;&#20041;&#26041;&#27861;&#19968;&#65306;&#27169;&#24335;&#21305;&#37197;+&#24310;&#36831;&#36171;&#20540;</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_113.gif" alt="worksheet1_113.gif" width="114" height="35" style="vertical-align:middle" />
+</p>
+
+<p class="Item">
+ <span class="TextInline">&#20989;&#25968;&#23450;&#20041;&#26041;&#27861;&#20108;&#65306;&#32431;&#20989;&#25968;&#65288;&lambda;-&#34920;&#36798;&#24335;&#12289;&#21311;&#21517;&#20989;&#25968;&#65289;</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_114.gif" alt="worksheet1_114.gif" width="251" height="125" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span class="TextInline">NOTE: &#24314;&#35758;&#21021;&#23398;&#32773;&#20351;&#29992;&#26041;&#27861;&#20108;&#30340;&#23436;&#25972;&#24418;&#24335;&#65292;&#22240;&#20026;&#27604;&#36739;&#31616;&#21333;&#26131;&#25026;&#12290;</span>
+</p>
+
+
+
+<p class="Section">
+ &#20363;&#23376;: &#27714;&#19981;&#22823;&#20110;&#32473;&#23450;&#27491;&#25972;&#25968; n &#30340;&#25152;&#26377;&#32032;&#25968;&#30340;&#21644;
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_115.png" alt="worksheet1_115.png" width="371" height="215" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_116.png" alt="worksheet1_116.png" width="463" height="69" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/worksheet1_117.png" alt="worksheet1_117.png" width="339" height="50" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/worksheet1_118.png" alt="worksheet1_118.png" width="282" height="15" style="vertical-align:middle" />
+</p>
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
+</body>
+
+</html>

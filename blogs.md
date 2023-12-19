@@ -8,16 +8,30 @@ title: Blogs
 
 <br>
 
-[Mathematica worksheet](https://starryious.github.io/KamdenWang2003.github.io/files/mathematica/worksheet.html)
+## Everyday Learning
+
+Learning is a life long journey.
+
+## Mathematica Worksheet
+
+[Mathematica worksheet1](https://starryious.github.io/KamdenWang2003.github.io/files/Mathematica1/worksheet1.html)
+
+[Mathematica worksheet2](https://starryious.github.io/KamdenWang2003.github.io/files/Mathematica1/worksheet1.html)
+
+[Mathematica worksheet3](https://starryious.github.io/KamdenWang2003.github.io/files/Mathematica1/worksheet1.html)
+
+[Mathematica worksheet4](https://starryious.github.io/KamdenWang2003.github.io/files/Mathematica1/worksheet1.html)
+
+[Mathematica worksheet5](https://starryious.github.io/KamdenWang2003.github.io/files/Mathematica1/worksheet1.html)
 
 <br>
 
 ## *Mathematical Analysis Ⅰ&Ⅱ Lecture Notes*
 
-Instructor: Prof. Liantang Wang
+Recording the Prof. Liantang Wang' lecture notes
 
-- [Mathematical Analysis Ⅰ](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/analysis/数学分析Ⅰ.pdf)
-- [Mathematical Analysis Ⅱ](https://github.com/starryious/KamdenWang2003.github.io/blob/main/files/analysis/数学分析Ⅱ.pdf)
+- [Mathematical Analysis Ⅰ](https://starryious.github.io/KamdenWang2003.github.io/files/analysis/数学分析Ⅰ.pdf)
+- [Mathematical Analysis Ⅱ](https://starryious.github.io/KamdenWang2003.github.io/files/analysis/数学分析Ⅱ.pdf)
 
 <br>
 
