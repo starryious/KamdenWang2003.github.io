@@ -5,6 +5,3 @@ title: freshman
 ---
 
 <br>
-
-
-

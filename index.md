@@ -7,13 +7,19 @@ layout: page
 
 ***
 
-My name is **Xuankai Wang**. I am now a junior at the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) majoring in applied statistics. I am born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003.  My Email: shakechi [dot] wang [dot] gmail [dot] com
+My name is **Xuankai Wang**. I am now a fourth-year student at the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) majoring in applied statistics. I am born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003. <br>
+
+My Email: shakechi [dot] wang [at] gmail [dot] com
 
 ## Academic Interests
 
 ****
 
-My interests primarily focus on applying solid mathematical knowledge, especially **probability and statistics** to develop  models for addressing crucial real-world problems.
+My interests primarily focus on applying solid mathematical knowledge, especially **probability theory and statistics** to develop stochastic and statistical models for addressing crucial real-world problems.
+
+- Applied Probability, Stochastic Processes and Stochastic analysis
+
+- Mathematical Statistics 
 
 ## News and Updates
 
@@ -27,11 +33,10 @@ My interests primarily focus on applying solid mathematical knowledge, especiall
 
 ****
 
-**Job** \| University
+**Mitacs Research Intern** \| University of British Columbia
 
-* **Advisor**: Prof. 
+* **Advisor**: Prof. Xiaoping Shi
 
-*  Feb. 2023 - Mar. 2023
+* July. 2024 - Oct. 2024
 
 ***
-

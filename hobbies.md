@@ -18,25 +18,22 @@ In my perspective, anime constructs entirely new worlds filled with diverse char
 
 <br>
 
-Teaching is a great way to keep learning. When you are teaching, you will find whether you truly master a specific knowledge or not. [The Feynman Technique](https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching) is a way to practice this idea. Due to the unsatisfactory teaching of university courses, I want to try my best to teach others in a relaxing but rigorous way.
-
-
+Teaching is another to learn. When you are teaching, you will subtbly find whether you truly master a specific knowledge or not. [The Feynman Technique](https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching) is a way to practice this idea. Due to the unsatisfactory teaching of university courses, I want to try my best to teach others in a relaxing but rigorous way.
 
 ## Ping-pong & Swimming & Exercising
 
 <br>
 
-Among the ball games, I am good at ping-pong, other ball games are at the elementary level like tennis, football, badminton and basketball. Swimming and exercising are also my favorite sports. 
+Among the ball games, I like playing ping-pong, other ball games are at the elementary level like tennis, football, badminton and basketball. Swimming and exercising are also my favorite sports. I spent 3 - 4 days a week in swimming and exercising.
 
 ## Reading
 
 <br>
 
-I read different types of books (physics, geography, history, novel) in my free time. But currently finding time to read at noon and evening is difficult for me due to the increasingly tight schedule. I am interested in theoretical physics but getting bad score in high school.
+I am an omnivorous reader (physics, geography, history, novel). But currently finding time to read at noon and evening is difficult for me due to the increasingly tight schedule. I am interested in theoretical physics but getting bad score in high school.
 
 ## Miscellaneous
 
 <br>
 
-I enjoy drinking coffee(latté), and watching movies; [R](https://cran.r-project.org/) is the language I mainly use and previously I have learned MATLAB(forgotten), Python, C, C++, SQL and Wolfram; [R Markdown](https://rmarkdown.rstudio.com/) is the main tool I use for editing which combines Markdown, TeX, code chunks(like code cell in Jupyter Notebook and Mathematica) and using Pandoc to output different format.
-
+I enjoy drinking coffee, and watching movies; [R](https://cran.r-project.org/) is the language I mainly use and previously I have learned MATLAB(forgotten), Python, C, C++, SQL and Wolfram (Mathematica); [R Markdown](https://rmarkdown.rstudio.com/) is the main tool I use for editing which combines Markdown, TeX, code chunks(like code cell in Jupyter Notebook and Mathematica Notebook) and using Pandoc to output different format.
