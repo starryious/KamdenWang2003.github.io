@@ -15,11 +15,13 @@ My Email: shakechi [dot] wang [at] gmail [dot] com
 
 ****
 
-My interests primarily focus on applying solid mathematical knowledge, especially **probability theory and statistics** to develop stochastic and statistical models for addressing crucial real-world problems.
+My interests primarily focus on applying solid mathematical knowledge, especially **probability theory and statistics** to develop stochastic and statistical models for addressing crucial real-world problems and interpreting real-world phenomena .
 
 - Applied Probability, Stochastic Processes and Stochastic analysis
 
-- Mathematical Statistics 
+- Mathematical Statistics
+
+Note that when we talk about **applied probability**, we are still inclined to the theoretical part, e.g., mathematical statistics, reliability, queueing theory, risk theory, prediction, filtering, financial mathematics, etc. On the other hand, **the application of probability** could be a theorem or a practical use.
 
 ## News and Updates
 
@@ -33,7 +35,7 @@ My interests primarily focus on applying solid mathematical knowledge, especiall
 
 ****
 
-**Mitacs Research Intern** \| University of British Columbia
+**Mitacs Research Intern** \| University of British Columbia Okanagan
 
 * **Advisor**: Prof. Xiaoping Shi
 
