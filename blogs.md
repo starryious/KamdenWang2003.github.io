@@ -10,7 +10,7 @@ title: Blogs
 
 ## Mathematica Worksheet
 
-[Mathematica worksheet1](https://starryious.github.io/KamdenWang2003.github.io/files/Mathematica1/worksheet1.html)
+[Mathematica worksheet1](https://starryious.github.io/KamdenWang2003.github.io/files/Mathematica1/worksheet.html)
 
 [Mathematica worksheet2](https://starryious.github.io/KamdenWang2003.github.io/files/Mathematica1/worksheet1.html)
 

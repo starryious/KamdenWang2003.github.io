@@ -1,11 +1,12 @@
 ---
 layout: page
-
 ---
 
 # About Me
 
 ***
+
+<img src="https://starryious.github.io/KamdenWang2003.github.io/xuankai.png" class="floatpic">
 
 My name is **Xuankai Wang**. I am now a fourth-year student at the [School of Mathematics](https://math.nwu.edu.cn/), [Northwest University](https://www.nwu.edu.cn/) majoring in applied statistics. I am born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003. <br>
 
@@ -21,7 +22,7 @@ My interests primarily focus on applying solid mathematical knowledge, especiall
 
 - Mathematical Statistics
 
-Note that when we talk about **applied probability**, we are still inclined to the theoretical part, e.g., mathematical statistics, reliability, queueing theory, risk theory, prediction, filtering, financial mathematics, etc. On the other hand, **the application of probability** could be a theorem or a practical use.
+Note that when we talk about **applied probability**, we are still inclined to the theoretical part, e.g., mathematical statistics, statistical physics, control theory, telecommunications, reliability, queueing theory, risk theory, prediction, filtering, financial mathematics, etc. On the other hand, **the application of probability** could be a theorem or a practical use.
 
 ## News and Updates
 
