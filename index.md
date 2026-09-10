@@ -8,7 +8,13 @@ layout: page
 
 <img src="https://starryious.github.io/KamdenWang2003.github.io/xuankai.jpeg" class="floatpic">
 
-My name is **Xuankai Wang**. I am currently a first-year [Statistics](https://www.sfu.ca/stat-actsci.html) master student at [Simon Fraser University](https://www.sfu.ca/), advised by Professor [Donald Estep](https://canssi.ca/don-estep/). I was born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003. <br>
+My name is **Xuankai Wang**. I am currently a first-year [Statistics](https://www.sfu.ca/stat-actsci.html) master student at [Simon Fraser University](https://www.sfu.ca/), advised by Professor [Donald Estep](https://canssi.ca/don-estep/). 
+
+<br>
+
+I was born in [Zhoushan](https://en.wikipedia.org/wiki/Zhoushan), Zhejiang Province, People's Republic of China in 2003. 
+
+<br>
 
 My Email: shakechi [dot] wang [at] gmail [dot] com
 
