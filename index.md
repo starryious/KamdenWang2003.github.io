@@ -6,7 +6,7 @@ layout: page
 
 ***
 
-<img src="https://starryious.github.io/KamdenWang2003.github.io/xuankai.jpeg" class="floatpic">
+<img src="https://starryious.github.io/KamdenWang2003.github.io/xuankai.jpg" class="floatpic">
 
 My name is **Xuankai Wang**. I am currently a first-year [Statistics](https://www.sfu.ca/stat-actsci.html) master student at [Simon Fraser University](https://www.sfu.ca/), advised by Professor [Donald Estep](https://canssi.ca/don-estep/). 
 
